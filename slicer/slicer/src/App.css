@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  
+}
+
+.item{
+  color: black;
+  border: black 2px solid;
+  width: 7vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.item input {
+  width: 4vw;
+  height: 4vh;
+  background: none;
+  border: none;
+  align-items: center;
+  font-size: larger;
+  text-align: center;
+}
+
+.addElement{
+  width: 4px;
+  position: relative;
+  right: -22%;
+  height: inherit;
+}
+
+.addElement:hover{
+  cursor: pointer;
+ 
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #1ad357,
+            0 0 0.8rem #1ad357,
+            0 0 2.8rem #1ad357,
+            inset 0 0 1.3rem #1ad357; 
+}
+
+.addBeforeFirstelement{
+  width: 4px;
+  position: relative;
+  right: 22%;
+  height: inherit;
+}
+
+.addBeforeFirstelement:hover {
+  cursor: pointer;
+ 
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe; 
+}
